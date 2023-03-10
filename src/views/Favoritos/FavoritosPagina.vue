@@ -7,20 +7,26 @@
         <div class="container_cards">
             <div class="card">
                 <div class="lista_title">
-                    <h2 class="titulo">Nome....</h2> 
+                    <h2 class="titulo">Nome....</h2>
                     <button><img src="" alt="star"></button>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus eius facilis</p>
                 <img src="" alt="star"> <span>500</span>
             </div>
-            <button class="btn_ver-mais">Ver mais</button>
+            <ButtonVerMais />
         </div>
     </section>
 </template>
 
 <script>
+
+import ButtonVerMais from '../../components/ButtonVerMais/ButtonVerMais.vue'
+
 export default {
-    name: 'FavoritosPagina'
+    name: 'FavoritosPagina',
+    components: {
+        ButtonVerMais
+    }
 }
 </script>
 
