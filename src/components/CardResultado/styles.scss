@@ -8,11 +8,24 @@
     .lista_title {
         @include flex;
         justify-content: space-between;
+        padding-top: 10px;
 
         h2 {
             font-size: 36px;
             font-weight: 400;
             margin: 0;
+        }
+
+        .btn_estrela {
+            width: 43px;
+            height: 43px;
+            background-color: transparent;
+            border: none;
+
+            img {
+                width: 100%;
+                cursor: pointer;
+            }
         }
     }
 
@@ -22,6 +35,10 @@
         font-size: 24px;
         line-height: 28px;
         color: $cinza;
+    }
+
+    .star_repositorios {
+        width: 22px;
     }
 
     span {

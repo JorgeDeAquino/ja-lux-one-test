@@ -10,5 +10,7 @@
 
     .lista_repositorios {
         margin-left: 70px;
+        display: flex;
+        flex-direction: column;
     }
 }
