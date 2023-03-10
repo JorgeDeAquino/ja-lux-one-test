@@ -5,14 +5,7 @@
             <h2>Repositórios Favoritos</h2>
         </div>
         <div class="container_cards">
-            <div class="card">
-                <div class="lista_title">
-                    <h2 class="titulo">Nome....</h2>
-                    <button><img src="" alt="star"></button>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus eius facilis</p>
-                <img src="" alt="star"> <span>500</span>
-            </div>
+            <CardResultado/>
             <ButtonVerMais />
         </div>
     </section>
@@ -21,11 +14,13 @@
 <script>
 
 import ButtonVerMais from '../../components/ButtonVerMais/ButtonVerMais.vue'
+import CardResultado from '../../components/CardResultado/CardResultado.vue'
 
 export default {
     name: 'FavoritosPagina',
     components: {
-        ButtonVerMais
+        ButtonVerMais,
+        CardResultado
     }
 }
 </script>
