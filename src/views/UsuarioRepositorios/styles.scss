@@ -1,0 +1,14 @@
+.container_UsuarioDetalhe {
+    display: flex;
+    padding: 36px 42px 24px 17px;
+
+    .usuario_info {
+        width: 339px;
+        height: 644px;
+        background-color: black;
+    }
+
+    .lista_repositorios {
+        margin-left: 70px;
+    }
+}
