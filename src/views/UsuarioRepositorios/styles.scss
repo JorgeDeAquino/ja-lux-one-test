@@ -34,20 +34,24 @@
             
             ul {
                 list-style: none;
-                display: flex;
-                flex-direction: column;
                 margin-top: 44px;
                 
                 li {
-                    @include flex;
                     color: $cinza;
-                    font-weight: 300;
-                    font-size: 20px;
-                    line-height: 24px;
-                    margin-bottom: 14px;
+                    @include flex;
+                    gap: 12px;
+
                     img {
                         width: 20px;
                         height: 15px;
+                        color: $btnselecionado;
+                    }
+
+                    span {
+                        font-weight: 300;
+                        font-size: 20px;
+                        line-height: 24px;
+                        margin-bottom: 14px;
                     }
                 }
             }

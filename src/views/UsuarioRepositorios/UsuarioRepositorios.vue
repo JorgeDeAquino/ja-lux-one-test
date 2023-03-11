@@ -6,10 +6,30 @@
                 <h2>Nome do Usuario</h2>
                 <h3>@ usuario</h3>
                 <ul>
-                    <li><img src="" alt="icone"> <span>Empresa</span></li>
-                    <li><img src="" alt="icone"> <span>localidade</span></li>
-                    <li><img src="" alt="icone"> <span>Repositorios</span></li>
-                    <li><img src="" alt="icone"> <span>Seguidores</span></li>
+                    <li>
+                        <img src="@/assets/images/organization.svg" alt="icone">
+                        <span>
+                            Empresa
+                        </span>
+                    </li>
+                    <li>
+                        <img src="@/assets/images/location.svg" alt="icone">
+                        <span>
+                            localidade
+                        </span>
+                    </li>
+                    <li>
+                        <img src="@/assets/images/repository.svg" alt="icone">
+                        <span>
+                            Repositorios
+                        </span>
+                    </li>
+                    <li>
+                        <img src="@/assets/images/followers.svg" alt="icone">
+                        <span>
+                            Seguidores
+                        </span>
+                    </li>
                 </ul>
             </div>
         </div>
