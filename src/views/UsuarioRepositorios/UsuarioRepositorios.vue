@@ -1,7 +1,17 @@
 <template>
     <section class="container_UsuarioDetalhe">
-        <div class="usuario_info">
-            <img src="" alt="Foto Usuario">
+        <div class="usuario_card">
+            <img src="https://avatars.githubusercontent.com/u/102498673?v=4" alt="Foto Usuario">
+            <div class="usuario_infos">
+                <h2>Nome do Usuario</h2>
+                <h3>@ usuario</h3>
+                <ul>
+                    <li><img src="" alt="icone"> <span>Empresa</span></li>
+                    <li><img src="" alt="icone"> <span>localidade</span></li>
+                    <li><img src="" alt="icone"> <span>Repositorios</span></li>
+                    <li><img src="" alt="icone"> <span>Seguidores</span></li>
+                </ul>
+            </div>
         </div>
         <div class="lista_repositorios">
             <CardResultado />

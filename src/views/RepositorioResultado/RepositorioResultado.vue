@@ -1,9 +1,6 @@
 <template>
     <section class="container_RepositorioResultado">
             <CardResultado/>
-            <CardResultado/>
-            <CardResultado/>
-            <CardResultado/>
             <ButtonVerMais />
     </section>
 </template>
