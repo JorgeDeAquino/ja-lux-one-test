@@ -1,10 +1,15 @@
 <template>
-    <button class="btn_ver-mais">Ver mais</button>
+    <button class="btn_ver-mais" @click="verMais">Ver mais</button>
 </template>
 
 <script>
 export default {
-    name: 'ButtonVerMais'
+    name: 'ButtonVerMais',
+    methods: {
+        verMais() {
+            console.log("teste")
+        }
+    }
 }
 </script>
 

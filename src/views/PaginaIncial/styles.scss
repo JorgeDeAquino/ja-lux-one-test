@@ -24,6 +24,11 @@
             border-radius: $radiusSm;
             border: $border;
         }
+
+        .btnSelecionado1, .btnSelecionado2 {
+            background-color: $btnselecionado;
+            color: $padrao;
+        }
     }
 
     .input_search {
