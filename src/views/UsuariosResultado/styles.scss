@@ -1,0 +1,8 @@
+@import '../../assets/styles/colors';
+@import '../../assets/styles/variaveis';
+
+.container_UsuariosResultado {
+    @include flex;
+    flex-direction: column;
+    padding-top: 71px;
+}

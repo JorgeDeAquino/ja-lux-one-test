@@ -30,7 +30,7 @@ const routes = [
     },
     {
         name: 'usuarios-resultado',
-        path: '/usuario-repositorios',
+        path: '/usuario-resultado',
         component: UsuariosResultado
     },
     {
